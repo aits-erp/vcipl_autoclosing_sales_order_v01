@@ -12,7 +12,7 @@ app_license = "mit"
 # }
 
 scheduler_events = {
-    "daily": [
+    "hourly": [
         "sales_order_autoclose.autoclose_sales_order.auto_close_sales_orders.auto_close_sales_orders"
     ]
 }
