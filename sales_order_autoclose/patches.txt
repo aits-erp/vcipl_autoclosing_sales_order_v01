@@ -4,3 +4,6 @@
 
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated
+
+# sales_order_autoclose.sales_order_autoclose.patches.autoclose_add_custom_field
+sales_order_autoclose.patches.add_autoclose_custom_field
