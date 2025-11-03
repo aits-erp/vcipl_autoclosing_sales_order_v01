@@ -9,7 +9,7 @@ def execute():
             "fieldname": "autoclose_after_60_days",
             "label": "Autoclose after 60 days",
             "fieldtype": "Check",
-            "insert_after": "delivery_date",  # adjust if needed, safe default
+            "insert_after": "delivery_date",  
             "in_list_view": 1,
             "description": "If checked, this Sales Order will be autoclosed after inactivity period."
         })
