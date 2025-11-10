@@ -117,6 +117,7 @@ def auto_close_sales_orders(days=60):
     except Exception:
         frappe.log_error(frappe.get_traceback(), "[AutoClose] Job Failed")
 
+#committed version 1.0
 
 # import frappe
 # import json
