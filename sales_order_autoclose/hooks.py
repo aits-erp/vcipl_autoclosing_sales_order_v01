@@ -13,7 +13,7 @@ scheduler_events = {
 
 # include the patch
 patches = [
-    "sales_order_autoclose.patches.add_autoclose_custom_field"
+    "sales_order_autoclose.sales_order_autoclose.patches.add_autoclose_custom_field"
 ]
 
 # Apps
