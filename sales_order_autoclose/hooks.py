@@ -5,16 +5,26 @@ app_description = "automatically closing the sales orders"
 app_email = "nikhil@aitsind.com"
 app_license = "mit"
 
+fixtures = [
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["module", "=", "autoclose sales order"]
+        ]
+    }
+]
+
 scheduler_events = {
     "hourly": [
         "sales_order_autoclose.autoclose_sales_order.auto_close_sales_orders.auto_close_sales_orders"
     ]
 }
 
+
 # include the patch
-patches = [
-    "sales_order_autoclose.sales_order_autoclose.patches.add_autoclose_custom_field"
-]
+# patches = [
+#     "sales_order_autoclose.sales_order_autoclose.patches.add_autoclose_custom_field"
+# ]
 
 # Apps
 # ------------------
